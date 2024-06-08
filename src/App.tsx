@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import userData from '../db/users.json';
 
 import styles from './App.module.css';
