@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import userData from '../db/users.json';
 
 import styles from './App.module.css';
 
@@ -63,14 +64,16 @@ function App() {
   };
 
   React.useEffect(() => {
-    axios
-      .get('http://localhost:3001/users')
-      .then((response) => {
-        setUsers(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    // axios
+    //   .get('http://localhost:3001/users')
+    //   .then((response) => {
+    //     setUsers(response.data);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+
+    setUsers(userData.users);
   }, []);
 
   return (
