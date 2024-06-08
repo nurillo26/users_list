@@ -1,0 +1,21 @@
+.app_wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #efeff6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.team_block {
+  position: relative;
+  width: 1135px;
+  height: 589px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  overflow: auto;
+}

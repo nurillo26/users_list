@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 29px;
+
+  height: 72px;
+  border-radius: 15px 15px 0 0;
+}
+
+.team_text {
+  font-weight: 600;
+  font-size: 26px;
+  color: #424f5e;
+}
+
+.search_add_block {
+  display: flex;
+  gap: 10px;
+}
+
+.search_input_wrap {
+  position: relative;
+}
+
+.search_input_wrap img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search_input {
+  border: 1px solid #c1c1cb;
+  border-radius: 10px;
+  width: 649px;
+  height: 36px;
+
+  font-size: 18px;
+  color: #9494a0;
+
+  padding: 8px 10px;
+}
+
+.add_user_btn {
+  width: 218px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #32c076;
+
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #f9fafb;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.add_user_btn:hover {
+  background-color: #fff;
+  color: #32c076;
+  border-color: #32c076;
+}

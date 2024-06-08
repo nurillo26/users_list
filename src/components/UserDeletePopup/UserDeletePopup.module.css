@@ -1,0 +1,39 @@
+.delete_popup_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  width: clamp(240px, 80%, 526px);
+  height: 189px;
+  border-radius: 25px;
+
+  box-shadow: -3px 3px 15px rgba(28, 28, 30);
+  background: #f9fafb;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.delete_popup_wrap span {
+  font-weight: 600;
+  font-size: 22px;
+  color: #424f5e;
+}
+
+.close_popup {
+  border-radius: 15px;
+  width: 404px;
+  height: 61px;
+  background: #32c076;
+  border: none;
+
+  font-weight: 500;
+  font-size: 20px;
+  color: #f9fafb;
+
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.permission_item {
+  border: 1px solid #c1c1cb;
+  border-radius: 10px;
+
+  padding: 5px 8px;
+  font-size: 16px;
+  line-height: 125%;
+  color: #9494a0;
+}

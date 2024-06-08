@@ -1,0 +1,24 @@
+.settings_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 17px;
+
+  padding: 23px 26px;
+
+  border-radius: 15px;
+  box-shadow: -2px 2px 50px 0 rgba(28, 28, 30);
+  background: #f9fafb;
+
+  position: absolute;
+  right: 50px;
+  z-index: 10;
+}
+
+.edit_user,
+.delete_user {
+  font-size: 18px;
+  color: #424f5e;
+  cursor: pointer;
+}
